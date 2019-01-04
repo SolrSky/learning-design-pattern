@@ -6,6 +6,8 @@ import javax.tools.ToolProvider;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
@@ -16,7 +18,7 @@ public class MyProxy {
 
     private static final String ln = "\r\n";
 
-    public static Object newProxyInstance(MyClassLoader loader, Class<?>[] interfaces, MyInvocationHandler myInvocationHandler) throws IOException {
+    public static Object newProxyInstance(MyClassLoader loader, Class<?>[] interfaces, MyInvocationHandler myInvocationHandler) throws IOException, ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         // 1、动态生成.java文件
         String src = generateSrc(interfaces);
 
@@ -36,10 +38,13 @@ public class MyProxy {
         JavaCompiler.CompilationTask task = compiler.getTask(null, manager, null, null, null, iterable);
         task.call();
         manager.close();
-        // 4、.class文件加载到JVM中
-        // 5、返回字节码重组后的新的代理类对象
+        //4、编译生成的.class文件加载到JVM中来
+        Class proxyClass =  loader.findClass("$Proxy0");
+        Constructor c = proxyClass.getConstructor(MyInvocationHandler.class);
+        file.delete();
 
-        return null;
+        //5、返回字节码重组以后的新的代理对象
+        return c.newInstance(myInvocationHandler);
     }
 
     private static String generateSrc(Class<?>[] interfaces){
