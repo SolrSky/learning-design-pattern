@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab859588-ce5c-4fb4-8913-a708ae6cffaa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gupaoedu-pattern-proxy/com/carlos/proxy/custom/$Proxy0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gupaoedu-pattern-proxy/com/carlos/proxy/custom/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gupaoedu-pattern-proxy/com/carlos/proxy/custom/MyClassLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gupaoedu-pattern-proxy/com/carlos/proxy/custom/MyProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gupaoedu-pattern-proxy/com/carlos/proxy/custom/MyProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carlos/proxy/custom/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carlos/proxy/custom/MyClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carlos/proxy/custom/MyProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carlos/proxy/custom/MyProxy.java" afterDir="false" />
-    </list>
+    <list default="true" id="ab859588-ce5c-4fb4-8913-a708ae6cffaa" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +15,8 @@
       <file leaf-file-name="CustomTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/carlos/proxy/custom/CustomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="280">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,68 +131,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-pattern-proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-pattern-proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-pattern-proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-pattern-proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-pattern-proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="carlos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-pattern-proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="carlos" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-pattern-proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="carlos" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-pattern-proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="carlos" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-pattern-proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="carlos" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="gupaoedu-pattern-proxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
@@ -322,16 +253,15 @@
       <workItem from="1545978461940" duration="1006000" />
       <workItem from="1545979685169" duration="7146000" />
       <workItem from="1546046914759" duration="6385000" />
-      <workItem from="1546567867025" duration="1215000" />
+      <workItem from="1546567867025" duration="1423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30027000" />
+    <option name="totallyTimeSpent" value="30235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="8" />
@@ -348,7 +278,7 @@
       <window_info anchor="right" id="调色板" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27148998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27148998" />
       <window_info id="设计器" order="2" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -766,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/carlos/proxy/custom/CustomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
